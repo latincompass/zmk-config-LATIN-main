@@ -1,4 +1,3 @@
 include:
   - board: xiao_ble
     shield: LATIN
-# there is no settingsreset (needed) for the XIAO
