@@ -6,5 +6,6 @@ url: https://github.com
 requires: [seeeduino_xiao_ble]
 features:
   - keys
+  - studio
 siblings:
   - LATIN
