@@ -39,7 +39,7 @@
 
             studio_unlock_combo {
                 bindings = <&studio_unlock>;
-                key-positions = <0 4>;
+                key-positions = <1 2>;
                 layers = <0 1>;
             };
     };
