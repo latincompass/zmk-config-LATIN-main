@@ -33,8 +33,6 @@
         compatible = "zmk,physical-layout";
         display-name = "LATIN Keyboard";
         transform = <&default_transform>;
-        rows = <4>;
-        columns = <5>;
     };
 
     kscan0: kscan_0 {
