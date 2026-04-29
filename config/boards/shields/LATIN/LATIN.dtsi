@@ -32,7 +32,7 @@
     default_physical_layout: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "LATIN Keyboard";
-        label = "LATIN";
+        transform = <&default_transform>;
         rows = <4>;
         columns = <5>;
     };
