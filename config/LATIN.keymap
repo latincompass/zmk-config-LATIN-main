@@ -628,6 +628,16 @@
             label = "GAM_FN";
         };
 
+        adj_layer {
+            label = "ADJ";
+            bindings = <
+                &trans     &trans     &trans     &trans     &trans
+                &trans     &trans     &trans     &trans     &trans
+                &trans     &trans     &trans     &trans     &trans
+                &trans     &trans     &studio_unlock &trans     &trans
+            >;
+        };
+
         shortcut_linux {
             label = "shortcut";
             bindings = <
