@@ -10,7 +10,6 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,matrix_transform = &default_transform;
         zmk,physical-layout = &default_physical_layout;
     };
 
@@ -34,7 +33,7 @@
         compatible = "zmk,physical-layout";
         display-name = "LATIN Keyboard";
         transform = <&default_transform>;
-        // Physical key layout: 4 rows x 5 columns
+        kscan = <&kscan0>;
         keys = <
             // Row 0
             &key_physical_attrs 100 100    0    0    0    0    0
