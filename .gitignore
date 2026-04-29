@@ -1,0 +1,12 @@
+.west
+build
+build-zmk-config-LATIN
+modules
+zephyr
+zmk
+*.uf2
+*.zip
+*.elf
+*.hex
+firmware/
+.DS_Store
