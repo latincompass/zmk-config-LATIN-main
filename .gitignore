@@ -10,3 +10,5 @@ zmk
 *.hex
 firmware/
 .DS_Store
+charybdis-4-6-dongle-prospector-studio-main/
+debug.log
