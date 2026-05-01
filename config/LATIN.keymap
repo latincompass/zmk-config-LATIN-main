@@ -89,7 +89,7 @@
 
         studio_unlock_combo {
             bindings = <&studio_unlock>;
-            key-positions = <1 2>;
+            key-positions = <0 1>;
             layers = <0 1>;
         };
     };
@@ -594,8 +594,8 @@
             // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━┻
 
             bindings = <
-           &bt_clear_0       &bt_clear_1       &kp F        &kp P        &kp B 
-           &out OUT_BLE      &out OUT_USB      &mo 1  &mt LSHFT T  &mo 1
+           &bt_0       &bt_1       &kp F        &kp P        &kp B 
+           &out OUT_BLE      &u_out_tog      &mo 1  &mt LSHFT T  &mo 1
            &en_comma  &kp Z       &kp X       &kp C        &kp D 
            &lt 8 ESC    &lt 5 SPACE  &lt 7 TAB    &lt 11 RET  &lt 9 BSPC 
             >;
