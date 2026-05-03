@@ -594,7 +594,7 @@
             // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━┻
 
             bindings = <
-           &out OUT_USB       &bt_1       &kp F        &kp P        &kp B 
+           &bt_clear_0       &bt_clear_1      &kp F        &kp P        &kp B
            &out OUT_USB      &out OUT_BLE      &mo 1  &mt LSHFT T  &mo 1
            &en_comma  &kp Z       &kp X       &kp C        &kp D 
            &lt 8 ESC    &lt 5 SPACE  &lt 7 TAB    &lt 11 RET  &lt 9 BSPC 
