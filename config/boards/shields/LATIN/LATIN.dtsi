@@ -10,8 +10,7 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,keymap = &keymap;
-        zmk,physical-layout = &default_layout;
+        zmk,matrix_transform = &default_transform;
     };
 
     default_transform: keymap_transform_0 {
@@ -80,12 +79,12 @@
         complete;
 
         five {
-            physical-layout = <&default_layout>;
+            physical-layout = &default_layout;
             positions
-                = < 0  1  2  3  4 >
-                , < 5  6  7  8  9 >
-                , <10 11 12 13 14 >
-                , <15 16 17 18 19 >
+                = < 0  1  2  3  4>
+                , < 5  6  7  8  9>
+                , <10 11 12 13 14>
+                , <15 16 17 18 19>
                 ;
         };
     };
