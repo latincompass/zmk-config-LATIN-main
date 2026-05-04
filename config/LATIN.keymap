@@ -21,8 +21,8 @@
                 base_layer {
                         label = "BASE";
                         bindings = <
-                                &out OUT_USB &out OUT_BLE &kp F &kp P &kp G
-                                &bt BT_SEL 0 &bt BT_SEL 1 &kp LCTRL &kp LSHIFT &kp B
+                                &kp N1 &kp N2 &kp F &kp P &kp G
+                                &kp N3 &kp N4 &kp LCTRL &kp LSHIFT &kp B
                                 &kp Z &kp X &kp C &kp D &kp COMMA
                                 &kp ESC &kp TAB &kp SPACE &kp RET &kp BSPC
                         >;
