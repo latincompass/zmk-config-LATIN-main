@@ -6,6 +6,7 @@
 #define BASE 0
 #define NAV  1
 #define SYM  2
+#define HASU 3
 
 &mt {
   quick-tap-ms = <100>;
@@ -45,6 +46,16 @@
                                 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
                                 &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp BSLH
                                 &kp ESC &kp SPACE &kp TAB &kp RET &kp BSPC
+                        >;
+                };
+
+                hasu_layer {
+                        label = "HASU";
+                        bindings = <
+                                &out OUT_USB &out OUT_BLE &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1
+                                &trans &trans &trans &trans &trans
+                                &trans &trans &trans &trans &trans
+                                &trans &trans &trans &trans &trans
                         >;
                 };
         };
