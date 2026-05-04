@@ -21,7 +21,7 @@
                 base_layer {
                         label = "BASE";
                         bindings = <
-                                &studio_unlock &trans &out OUT_USB &out OUT_BLE &bt BT_CLR
+                                &kp N1 &trans &out OUT_USB &out OUT_BLE &bt BT_CLR
                                 &kp N3 &kp N4 &kp LCTRL &kp LSHIFT &kp B
                                 &kp Z &kp X &kp C &kp D &kp COMMA
                                 &kp ESC &kp TAB &kp SPACE &kp RET &kp BSPC
