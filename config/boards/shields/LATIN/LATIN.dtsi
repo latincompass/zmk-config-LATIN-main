@@ -10,6 +10,7 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
+        zmk,keymap = &keymap;
         zmk,physical-layout = &default_layout;
     };
 
